@@ -1,0 +1,17 @@
+/*how to make a comment in CSS*/
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img {
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+}
+ol,
+ul {
+    display:inline-block;
+}
