@@ -30,6 +30,10 @@ body {
 }
 .index-header-container{
     margin: auto;
+    height: 200px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .mac-header-container{
     width: 600px;
@@ -69,13 +73,35 @@ body {
 .mac-header-content
 {
   align-items: center;
+  justify-content: space-around;
   gap: 2px;
   background-color: white;
   border: 3px solid black;
-  margin: 10px;
+  margin: 0px;
   flex-shrink: 1;
 }
-
+.index-header-content {
+  width: 300px;
+  text-align: center;
+ 
+}
+.img-container{
+  display: flex;
+  padding-left: 10px;
+  width: 785px;
+}
+.content-img-one{
+  height: 100px;
+  width: auto;
+  border: 3px solid black;
+  margin-right:auto ; 
+}
+.content-img-two{
+  height: 100px;
+  width: auto;
+  border: 3px solid black;
+  margin-right:10px;
+}
 img {
     height: auto;
     width: 400px;
