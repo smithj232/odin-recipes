@@ -48,8 +48,8 @@ body {
   }
 .container-navlist{
   display: flex;
-  gap: 50px;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   width: 600px;
   height: 150px;
   margin: auto;
@@ -58,14 +58,13 @@ body {
   background-color: grey;
 }
 
-.container-navlist .navlist{
-  /*flex: 1 1; is shorthand for flex-grow flex-shrink flex basis respectively*/
-  flex: 1 1;
+.navlist{
+  /*flex: 0 0 0; is shorthand for flex-grow flex-shrink flex basis respectively*/
   background-color: white;
   border: 3px solid black;
-  padding: 20px;
-  margin: 20px
-    
+  padding: 10px;
+  width: 100px;
+  text-align: center;
 }
 .index-header-content,
 .chicken-header-content,
