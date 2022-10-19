@@ -13,24 +13,34 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    width: 300px;
+    width: 800px;
     height: 150px;
     flex-direction: column;
     border: 2px solid cyan;
-    background-color: black;
-
+    background-color: gray;
+    margin-bottom: 20px;
 }
 .chicken-header-container
 {
     display: flex;
     margin-right: auto;
-    width: 400px;
+    width: 600px;
+    height: 400px;
+    padding-bottom: 50px;
 }
 .index-header-container{
     margin: auto;
   }
   .mac-header-container{
-    width: 400px
+    width: 600px;
+    height: 400px;
+    padding-bottom: 50px;
+  }
+  .pie-header-container{
+    width: 600px;
+    height: 400px;
+    padding-bottom: 50px;
+
   }
 .container-navlist{
   display: flex;
@@ -45,25 +55,25 @@ body {
 }
 
 .container-navlist .navlist{
-  /*flex:0 1 100px; is shorthand for flex-grow flex-shrink flex basis respectively*/
-  flex: 0 1 100px;
-  /*flex basis (100px) is starting size of child elements*/
+  /*flex: 1 1; is shorthand for flex-grow flex-shrink flex basis respectively*/
+  flex: 1 1;
   background-color: white;
   border: 3px solid black;
   padding: 20px;
   margin: 20px
     
 }
-.index-header-container .index-header-content,
-.chicken-header-container .chicken-header-content,
-.pie-header-container .pie-header-content,
-.mac-header-container  .mac-header-content
+.index-header-content,
+.chicken-header-content,
+.pie-header-content,
+.mac-header-content
 {
   align-items: center;
   gap: 2px;
   background-color: white;
-  border: 2px solid cyan;
-  margin: auto;
+  border: 3px solid black;
+  margin: 10px;
+  flex-shrink: 1;
 }
 
 img {
@@ -81,6 +91,7 @@ img {
     width: 325px;
     padding-left: 60px;
     background-color: grey;
+    margin-left: 100px;
 }
 .chicken-content-child,
 .pie-content-child,
